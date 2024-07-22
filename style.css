@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary: #291459;
+  --nametext: #ffffff;
+  --boxtext: #221148;
+  --transitions: #8e77c0;
+  --backgroundcard: url("./img/content\ box.png");
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: x-small;
+  background-image: url(https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h1,
+h2,
+img {
+  margin: 0;
+}
+.card {
+  height: 693px;
+}
+.card-elements {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  height: 693px;
+  justify-content: center;
+}
+
+.principal {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: var(--nametext);
+}
+
+.icons-SVG-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+}
+
+.text-conteirs-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#icon-github,
+#icon-instagram,
+#icon-letterboxd,
+#icon-linkedin {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+button {
+  margin-top: 43px;
+  width: 240px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: large;
+  font-style: var(--boxtext);
+  cursor: pointer;
+  transition: var(--transitions) 1s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--transitions);
+  color: #ffffff;
+  transform: translate(1);
+}
+
+img#card-box {
+  position: fixed;
+  height: auto;
+}
